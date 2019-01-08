@@ -1,0 +1,562 @@
+html {
+    background: black;
+    
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+
+body h1 {
+    margin-top: 25px;
+    font-size: 100px;
+    line-height: 80px;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+body h2 {
+    font-size: 42px;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+body p {
+    color: #FFB5F1;
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.section1 {
+    background: url(../img/squarerepeat.png) repeat fixed, linear-gradient(rgba(0,85,255,.60), rgba(0,0,0,1)), url(../img/bg.png) no-repeat center fixed;
+    -webkit-background-size: auto, cover, cover;
+    -moz-background-size: auto, cover, cover;
+    -o-background-size: auto, cover, cover;
+    background-size: auto, cover, cover;
+}
+
+.section1 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.section1 a {
+    color: #ff412c;
+    font-size: inherit;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #480000;
+    transition: all ease-in-out .5s;
+}
+
+.section1 a:hover {
+    color: white;
+    transition: all ease-in-out .25s;
+}
+
+
+.t7chicken {
+    margin-bottom: 25px;
+}
+
+.t7chicken h1 {
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.t7chicken p {
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.t7chicken ul {
+    margin: 0;
+}
+
+.t7chicken li {
+    display: inline;
+    text-decoration: none;
+    margin: 5px 10px 5px 0;
+}
+
+.scrollup {  
+    display: none;
+    font-family: 'FontAwesome';
+    font-size: 30px;
+    line-height: 42px;
+    border: solid;
+    border-width: 2px;
+    border-color: #ff412c;
+    border-radius: 100px;
+    text-align: center;
+    background: black;
+    position: fixed;
+    bottom: 2%;
+    right: 10%;
+    width: 50px;
+    height: 50px;
+    padding-top:5px;
+    z-index: 6;
+    box-shadow: 0 0 25px rgba(255, 65, 44,0);
+    transition: all ease-in-out .5s;
+    
+}
+
+.scrollup:hover {
+    box-shadow: 0 0 25px rgba(255, 65, 44,1);
+    transition: all ease-in-out .25s;
+}
+
+.scrolldown {  
+    font-family: 'FontAwesome';
+    font-size: 30px;
+    line-height: 46px;
+    border: solid;
+    border-width: 2px;
+    border-color: #ff412c;
+    border-radius: 100px;
+    text-align: center;
+    background: black;
+    position: fixed;
+    bottom: 2%;
+    right: 10%;
+    width: 50px;
+    height: 50px;
+    padding-top:10px;
+    z-index: 5;
+    box-shadow: 0 0 25px rgba(255, 65, 44,0);
+    transition: all ease-in-out .5s;
+    
+}
+
+.scrolldown:hover {
+    box-shadow: 0 0 25px rgba(255, 65, 44,1);
+    transition: all ease-in-out .25s;
+    overflow:visible;
+    display: block;
+}
+
+.appstore {
+    background: url(../img/appstore.png) no-repeat center;
+    float: left;
+    background-size: cover;
+    border-radius: 6px;
+    width: 136px;
+    height: 40px;
+    box-shadow: 0 0 25px rgba(255, 65, 44,0);
+    transition: all ease-in-out .5s;
+    float: left;
+}
+
+.appstore:hover {
+    box-shadow: 0 0 25px rgba(255, 65, 44,1);
+    transition: all ease-in-out .25s;
+}
+
+.googleplay {
+    background: url(../img/googleplay.png) no-repeat center;
+    float: left;
+    background-size: cover;
+    border-radius: 6px;
+    width: 136px;
+    height: 40px;
+    box-shadow: 0 0 25px rgba(255, 65, 44,0);
+    transition: all ease-in-out .5s;
+    float: left;
+}
+
+.googleplay:hover {
+    box-shadow: 0 0 25px rgba(255, 65, 44,1);
+    transition: all ease-in-out .25s;
+}
+
+
+.section1 .phones {
+    vertical-align: bottom;
+    text-align: right;
+    
+}
+
+.section2 {
+    background: black;
+    padding-bottom: 75px;
+    
+}
+
+
+.section2 h2 {
+    font-size: 42px;
+    text-shadow: 2px 2px 2px #480000;
+    padding-top: 0;
+    font-weight: 700;
+}
+
+
+.section2 h3 {
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #480000;
+    padding-top: 0;
+    font-weight: 300;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #FF412C;
+}
+
+
+.section2 h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+
+.section2 h3 small {
+    border-width:  0;
+}
+
+
+.section2 p {
+    color: #FFB5F1;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+
+.section2 li {
+    color: #FFB5F1;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+
+.section3 .bottomshadow {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+    z-index: 4;
+    margin-bottom: 48px;
+}
+
+
+.section3 {
+    background: black;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    margin: 0;
+}
+
+.section3 ul {
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section3 li {
+    color: #fff;
+    display: inline;
+    padding: 5px 20px;
+    margin: 0 5px;
+    box-shadow: 0 0 25px rgba(255, 65, 44,0);
+    transition: all ease-in-out .5s;
+}
+
+.section3 li:hover {
+    box-shadow: 0 0 25px rgba(255, 65, 44,1);
+    transition: all ease-in-out .25s;
+}
+
+.twitter {
+    background: #1DA1F2;
+}
+
+.reddit {
+    background: #ff4500;
+}
+
+.twitch {
+    background: #6441a5;
+}
+
+.discord {
+    background: #7289DA;
+;
+}
+
+
+
+/* ---------------------MEDIA QUERY MAX-WIDTH 640PX--------------------- */
+
+
+
+@media all and (max-width:640px) { 
+
+
+    
+
+
+.section1 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.section1 a {
+    color: #ff412c;
+    font-size: inherit;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #480000;
+    transition: all ease-in-out .5s;
+}
+
+.section1 a:hover {
+    color: white;
+    transition: all ease-in-out .25s;
+}
+
+.t7chicken {
+    left: 0;
+    top: 0%;
+}
+
+.t7chicken h1 {
+    padding-top: 10px;
+    font-size: 56px;
+    line-height: 50px;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.t7chicken p {
+    text-shadow: 2px 2px 2px #480000;
+    font-size: 14px;
+}
+
+    
+
+.section2 {
+    background: black;
+    padding-bottom: 75px;
+}
+
+
+.section2 h2 {
+    font-size: 42px;
+    text-shadow: 2px 2px 2px #480000;
+    padding-top: 0;
+}
+
+.section2 p {
+    color: #FFB5F1;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------MEDIA QUERY MAX-WIDTH 736PX--------------------- */
+
+
+
+@media all and (max-width: 736px) { 
+
+
+
+.section1 p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.section1 a {
+    color: #ff412c;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #480000;
+    transition: all ease-in-out .5s;
+}
+
+.section1 a:hover {
+    color: white;
+    transition: all ease-in-out .25s;
+}
+
+
+.t7chicken {
+    left: 0;
+    top: 0%;
+}
+
+.t7chicken h1 {
+    padding-top: 10px;
+    font-size: 56px;
+    line-height: 50px;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+.t7chicken p {
+    text-shadow: 2px 2px 2px #480000;
+    font-size: 14px;
+}
+
+    
+
+.section2 {
+    background: black;
+    padding-bottom: 75px;
+}
+
+.section2 h2 {
+    font-size: 42px;
+    text-shadow: 2px 2px 2px #480000;
+    padding-top: 75px;
+    
+}
+
+.section2 p {
+    color: #FFB5F1;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+    
+    
+
+}
+
+
+
+
+
+
+
+/* ---------------------MEDIA QUERY MAX-WIDTH 980PX--------------------- */
+
+/*
+
+@media all and (max-width: 980px) { 
+
+
+
+
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: rgba(0,0,0,.85);
+}
+
+.section1 {
+    background: url(../img/squarerepeat.png) repeat fixed, linear-gradient(rgba(0,85,255,.60), rgba(0,0,0,1)), url(../img/bg.png) no-repeat center fixed;
+    -webkit-background-size: auto, cover, cover;
+    -moz-background-size: auto, cover, cover;
+    -o-background-size: auto, cover, cover;
+    background-size: auto, cover, cover;
+    height: 75vh;
+}
+
+.section1 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 15px 10px 15px rgba(0,0,0,.35);
+}
+
+.section1 a {
+    color: #ff412c;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 15px 10px 15px rgba(0,0,0,.35);
+    transition: all ease-in-out .5s;
+}
+
+.section1 a:hover {
+    color: white;
+    transition: all ease-in-out .25s;
+}
+
+.section1 .bottomshadow {
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(rgba(255,65,44,0), rgba(255,65,44,0.15));
+}
+
+.t7chicken {
+    position: relative;
+    z-index: 3;
+}
+
+.t7chicken h1 {
+    padding-top: 0;
+    font-size: 56px;
+    line-height: 50px;
+    text-shadow: 15px 10px 15px rgba(0,0,0,.35);
+}
+
+.t7chicken p {
+    text-shadow: 15px 10px 15px rgba(0,0,0,.75);
+    font-size: 18px;
+}
+
+    
+    
+
+.section2 {
+    background: black;
+    padding-bottom: 75px;
+    padding-top: 250px;
+}
+
+
+.section2 h2 {
+    font-size: 42px;
+    text-shadow: 2px 2px 2px #480000;
+    padding-top: 75px;
+    
+}
+
+.section2 p {
+    color: #FFB5F1;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #480000;
+}
+
+    
+    
+
+}
+
+
+
+*/
+
+
